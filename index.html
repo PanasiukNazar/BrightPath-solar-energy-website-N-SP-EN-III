@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>BrightPath</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="" name="keywords" />
+        <meta content="" name="description" />
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&family=Pacifico&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Icon Font Stylesheet -->
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet" />
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css"
+            rel="stylesheet"
+        />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <div class="bg-white p-0">
+            <!-- Spinner Start -->
+            <div
+                id="spinner"
+                class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+            >
+                <div
+                    class="spinner-border text-primary"
+                    style="width: 3rem; height: 3rem"
+                    role="status"
+                >
+                    <span class="sr-only">Loading...</span>
+                </div>
+            </div>
+            <!-- Spinner End -->
+
+            <!-- Navbar & Hero Start -->
+            <div class="position-relative p-0">
+                <nav
+                    class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0"
+                >
+                    <a href="" class="navbar-brand p-0">
+                        <h1 class="text-primary m-0">BrightPath</h1>
+                    </a>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarCollapse"
+                    >
+                        <span class="fa fa-bars"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <div class="navbar-nav ms-auto py-0 pe-4">
+                            <a href="index.html" class="nav-item nav-link"
+                                >Inicio</a
+                            >
+                            <a href="#about.html" class="nav-item nav-link"
+                                >Sobre nosotros</a
+                            >
+                            <a href="#service" class="nav-item nav-link"
+                                >Servicios</a
+                            >
+                            <a href="#blog" class="nav-item nav-link">Blog</a>
+                            <a href="#contact" class="nav-item nav-link"
+                                >Contacto</a
+                            >
+                        </div>
+                    </div>
+                </nav>
+                <div class="py-5 bg-dark hero-header mb-5">
+                    <div class="container my-5 py-5">
+                        <div class="row align-items-center g-5">
+                            <div class="col-lg-6 text-center text-lg-start">
+                                <h1
+                                    class="display-3 text-white animated slideInLeft"
+                                >
+                                    Desbloquea el poder del consultoría efectiva
+                                    en energía solar
+                                </h1>
+                                <p
+                                    class="text-white animated slideInLeft mb-4 pb-2"
+                                >
+                                    Mejora las operaciones de tu empresa
+                                    mediante la consultoría experta en
+                                    soluciones solares, optimización y prácticas
+                                    sostenibles. Nuestros servicios ofrecen
+                                    enfoques personalizados para reducir tu
+                                    huella de carbono y mejorar la eficiencia
+                                    energética.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Navbar & Hero End -->
+
+            <!-- About Start -->
+            <div id="about" class="container-xxl py-5">
+                <div class="container">
+                    <div class="row g-5 align-items-center">
+                        <div class="col-lg-6">
+                            <div class="row g-3">
+                                <div class="col-6 text-start">
+                                    <img
+                                        class="img-fluid rounded w-100 wow zoomIn"
+                                        data-wow-delay="0.1s"
+                                        src="img/about-1.jpg"
+                                    />
+                                </div>
+                                <div class="col-6 text-start">
+                                    <img
+                                        class="img-fluid rounded w-75 wow zoomIn"
+                                        data-wow-delay="0.3s"
+                                        src="img/about-2.jpg"
+                                        style="margin-top: 25%"
+                                    />
+                                </div>
+                                <div class="col-6 text-end">
+                                    <img
+                                        class="img-fluid rounded w-75 wow zoomIn"
+                                        data-wow-delay="0.5s"
+                                        src="img/about-3.jpg"
+                                    />
+                                </div>
+                                <div class="col-6 text-end">
+                                    <img
+                                        class="img-fluid rounded w-100 wow zoomIn"
+                                        data-wow-delay="0.7s"
+                                        src="img/about-4.jpg"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <h5
+                                class="section-title ff-secondary text-start text-primary fw-normal"
+                            >
+                                Sobre nosotros
+                            </h5>
+                            <h1 class="mb-4">
+                                Bienvenido a Tech Path Way Trainers
+                            </h1>
+                            <p class="mb-4">
+                                Nuestra plataforma está diseñada para ayudar a
+                                las empresas a optimizar el uso de la energía a
+                                través de consultoría experta en energía solar.
+                                Nos enfocamos en soluciones sostenibles que
+                                reducen costos e incrementan la eficiencia.
+                                Nuestro enfoque incluye consultoría estratégica,
+                                diseño de sistemas y apoyo en la instalación.
+                            </p>
+                            <p class="mb-4">
+                                Nuestros cursos te brindan los conocimientos y
+                                herramientas necesarios para tomar decisiones
+                                informadas, optimizar sistemas de energía e
+                                integrar soluciones solares de vanguardia en las
+                                operaciones de tu empresa.
+                            </p>
+                            <div class="row g-4 mb-4">
+                                <div class="col-sm-6">
+                                    <div
+                                        class="d-flex align-items-center border-start border-5 border-primary px-3"
+                                    >
+                                        <h1
+                                            class="flex-shrink-0 display-5 text-primary mb-0"
+                                            data-toggle="counter-up"
+                                        >
+                                            15
+                                        </h1>
+                                        <div class="ps-4">
+                                            <p class="mb-0">
+                                                Años de experiencia
+                                            </p>
+                                            <h6 class="text-uppercase mb-0">
+                                                En consultoría solar
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div
+                                        class="d-flex align-items-center border-start border-5 border-primary px-3"
+                                    >
+                                        <h1
+                                            class="flex-shrink-0 display-5 text-primary mb-0"
+                                            data-toggle="counter-up"
+                                        >
+                                            50
+                                        </h1>
+                                        <div class="ps-4">
+                                            <p class="mb-0">
+                                                Proyectos completados
+                                            </p>
+                                            <h6 class="text-uppercase mb-0">
+                                                Sistemas solares y consultoría
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- About End -->
+
+            <!-- Service Start -->
+            <div id="services" class="container-xxl py-5">
+                <div class="container">
+                    <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                        <h5
+                            class="section-title ff-secondary text-center text-primary fw-normal"
+                        >
+                            Nuestros Servicios
+                        </h5>
+                        <h1 class="mb-5">Lo que aprenderás</h1>
+                    </div>
+                    <div class="row g-4">
+                        <div
+                            class="col-lg-6 col-sm-6 wow fadeInUp"
+                            data-wow-delay="0.1s"
+                        >
+                            <div class="service-item rounded pt-3">
+                                <div class="p-4">
+                                    <i
+                                        class="fa fa-3x fa-solid fa-lightbulb text-primary mb-4"
+                                    ></i>
+                                    <h5>Soluciones Estratégicas de Energía</h5>
+                                    <p>
+                                        Aprende cómo implementar las soluciones
+                                        energéticas más efectivas para tu
+                                        empresa, enfocándote en la optimización
+                                        del consumo y la reducción de costos.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="col-lg-6 col-sm-6 wow fadeInUp"
+                            data-wow-delay="0.3s"
+                        >
+                            <div class="service-item rounded pt-3">
+                                <div class="p-4">
+                                    <i
+                                        class="fa fa-3x fa-solid fa-cogs text-primary mb-4"
+                                    ></i>
+                                    <h5>Integración y Diseño de Sistemas</h5>
+                                    <p>
+                                        Entiende el proceso de diseño y cómo
+                                        integrar sistemas de energía en tu
+                                        empresa, asegurando un rendimiento
+                                        óptimo y sostenibilidad a largo plazo.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="col-lg-6 col-sm-6 wow fadeInUp"
+                            data-wow-delay="0.5s"
+                        >
+                            <div class="service-item rounded pt-3">
+                                <div class="p-4">
+                                    <i
+                                        class="fa fa-3x fa-solid fa-clipboard-list text-primary mb-4"
+                                    ></i>
+                                    <h5>Optimización de la Eficiencia</h5>
+                                    <p>
+                                        Obtén información sobre cómo monitorear
+                                        y mejorar la eficiencia de tus sistemas
+                                        de energía, identificando áreas clave
+                                        para optimizar y aumentar el ahorro
+                                        energético.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="col-lg-6 col-sm-6 wow fadeInUp"
+                            data-wow-delay="0.7s"
+                        >
+                            <div class="service-item rounded pt-3">
+                                <div class="p-4">
+                                    <i
+                                        class="fa fa-3x fa-solid fa-chart-line text-primary mb-4"
+                                    ></i>
+                                    <h5>Sostenibilidad a Largo Plazo</h5>
+                                    <p>
+                                        Aprende sobre las estrategias para
+                                        asegurar que las soluciones energéticas
+                                        sigan siendo sostenibles y rentables a
+                                        lo largo de los años, maximizando el
+                                        retorno de inversión.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Service End -->
+
+            <div class="container-xxl pt-5 pb-3">
+                <div class="container">
+                    <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                        <h5
+                            class="section-title ff-secondary text-center text-primary fw-normal"
+                        >
+                            Miembros del equipo
+                        </h5>
+                        <h1 class="mb-5">
+                            Nuestros expertos en consultoría de energía solar
+                        </h1>
+                    </div>
+                    <div class="row g-4">
+                        <div
+                            class="col-lg-3 col-md-6 wow fadeInUp"
+                            data-wow-delay="0.1s"
+                        >
+                            <div
+                                style="padding-bottom: 70px"
+                                class="team-item text-center rounded overflow-hidden"
+                            >
+                                <div class="overflow-hidden m-4">
+                                    <img
+                                        class="img-fluid"
+                                        src="img/team-1.jpg"
+                                        alt=""
+                                    />
+                                </div>
+                                <h5 class="mb-0">Alexandra B.</h5>
+                                <small
+                                    >Consultora Senior de Energía Solar</small
+                                >
+                            </div>
+                        </div>
+                        <div
+                            class="col-lg-3 col-md-6 wow fadeInUp"
+                            data-wow-delay="0.3s"
+                        >
+                            <div
+                                style="padding-bottom: 70px"
+                                class="team-item text-center rounded overflow-hidden"
+                            >
+                                <div class="overflow-hidden m-4">
+                                    <img
+                                        class="img-fluid"
+                                        src="img/team-2.jpg"
+                                        alt=""
+                                    />
+                                </div>
+                                <h5 class="mb-0">David C.</h5>
+                                <small
+                                    >Especialista en Desarrollo de
+                                    Estrategias</small
+                                >
+                            </div>
+                        </div>
+                        <div
+                            class="col-lg-3 col-md-6 wow fadeInUp"
+                            data-wow-delay="0.5s"
+                        >
+                            <div
+                                style="padding-bottom: 70px"
+                                class="team-item text-center rounded overflow-hidden"
+                            >
+                                <div class="overflow-hidden m-4">
+                                    <img
+                                        class="img-fluid"
+                                        src="img/team-3.jpg"
+                                        alt=""
+                                    />
+                                </div>
+                                <h5 class="mb-0">Anna N.</h5>
+                                <small
+                                    >Consultora de Procesos de Negocios</small
+                                >
+                            </div>
+                        </div>
+                        <div
+                            class="col-lg-3 col-md-6 wow fadeInUp"
+                            data-wow-delay="0.7s"
+                        >
+                            <div
+                                style="padding-bottom: 70px"
+                                class="team-item text-center rounded overflow-hidden"
+                            >
+                                <div class="overflow-hidden m-4">
+                                    <img
+                                        class="img-fluid"
+                                        src="img/team-4.jpg"
+                                        alt=""
+                                    />
+                                </div>
+                                <h5 class="mb-0">Maxim D.</h5>
+                                <small>Experto en Eficiencia Operativa</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Team End -->
+
+            <!-- Video Modal -->
+            <div
+                class="modal fade"
+                id="videoModal"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+            >
+                <div class="modal-dialog">
+                    <div class="modal-content rounded-0">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">
+                                Visión General del Curso
+                            </h5>
+                            <button
+                                type="button"
+                                class="btn-close"
+                                data-bs-dismiss="modal"
+                                aria-label="Cerrar"
+                            ></button>
+                        </div>
+                        <div class="modal-body">
+                            <!-- 16:9 aspect ratio -->
+                            <div class="ratio ratio-16x9">
+                                <iframe
+                                    class="embed-responsive-item"
+                                    src=""
+                                    id="video"
+                                    allowfullscreen
+                                    allowscriptaccess="always"
+                                    allow="autoplay"
+                                ></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Video Modal End -->
+
+            <!-- Testimonial Start -->
+            <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="container">
+                    <div class="text-center">
+                        <h5
+                            class="section-title ff-secondary text-center text-primary fw-normal"
+                        >
+                            Testimonios
+                        </h5>
+                        <h1 class="mb-5">¡Lo que dicen nuestros clientes!</h1>
+                    </div>
+                    <div class="owl-carousel testimonial-carousel">
+                        <div
+                            class="testimonial-item bg-transparent border rounded p-4"
+                        >
+                            <i
+                                class="fa fa-quote-left fa-2x text-primary mb-3"
+                            ></i>
+                            <p>
+                                El curso de consultoría en energía solar fue
+                                extremadamente valioso. El equipo proporcionó
+                                herramientas prácticas y estrategias realistas
+                                para optimizar los sistemas energéticos en las
+                                organizaciones. ¡Altamente recomendado!
+                            </p>
+                            <div class="d-flex align-items-center">
+                                <img
+                                    class="img-fluid flex-shrink-0 rounded-circle"
+                                    src="img/testimonial-1.jpg"
+                                    style="width: 50px; height: 50px"
+                                />
+                                <div class="ps-3">
+                                    <h5 class="mb-1">John D.</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="testimonial-item bg-transparent border rounded p-4"
+                        >
+                            <i
+                                class="fa fa-quote-left fa-2x text-primary mb-3"
+                            ></i>
+                            <p>
+                                Aprendí mucho sobre cómo aumentar la eficiencia
+                                en la gestión energética. El curso proporcionó
+                                ideas claras y estrategias útiles tanto para
+                                principiantes como para profesionales
+                                experimentados.
+                            </p>
+                            <div class="d-flex align-items-center">
+                                <img
+                                    class="img-fluid flex-shrink-0 rounded-circle"
+                                    src="img/testimonial-2.jpg"
+                                    style="width: 50px; height: 50px"
+                                />
+                                <div class="ps-3">
+                                    <h5 class="mb-1">Olivia T.</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="testimonial-item bg-transparent border rounded p-4"
+                        >
+                            <i
+                                class="fa fa-quote-left fa-2x text-primary mb-3"
+                            ></i>
+                            <p>
+                                El consejo proporcionado durante el curso me
+                                ayudó a desarrollar un plan para optimizar los
+                                sistemas energéticos en mi empresa. Las últimas
+                                tecnologías fueron clave para entender la
+                                asignación de recursos.
+                            </p>
+                            <div class="d-flex align-items-center">
+                                <img
+                                    class="img-fluid flex-shrink-0 rounded-circle"
+                                    src="img/testimonial-3.jpg"
+                                    style="width: 50px; height: 50px"
+                                />
+                                <div class="ps-3">
+                                    <h5 class="mb-1">Andrew B.</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="testimonial-item bg-transparent border rounded p-4"
+                        >
+                            <i
+                                class="fa fa-quote-left fa-2x text-primary mb-3"
+                            ></i>
+                            <p>
+                                He asistido a muchos cursos, pero este curso de
+                                energía solar fue especial. El contenido fue
+                                práctico, claro y fácilmente aplicable en
+                                situaciones reales. ¡Gracias por un programa tan
+                                valioso!
+                            </p>
+                            <div class="d-flex align-items-center">
+                                <img
+                                    class="img-fluid flex-shrink-0 rounded-circle"
+                                    src="img/testimonial-4.jpg"
+                                    style="width: 50px; height: 50px"
+                                />
+                                <div class="ps-3">
+                                    <h5 class="mb-1">Emma R.</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Testimonial End -->
+
+            <!-- Blog Start -->
+            <div class="container-xxl pt-5 pb-3">
+                <div class="container">
+                    <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                        <h5
+                            class="section-title ff-secondary text-center text-primary fw-normal"
+                        >
+                            Nuestros Blogs
+                        </h5>
+                        <h1 class="mb-5">
+                            Mantente actualizado sobre las últimas tendencias en
+                            consultoría energética
+                        </h1>
+                    </div>
+                    <div class="row g-4">
+                        <div
+                            class="col-lg-4 col-md-6 wow fadeInUp"
+                            data-wow-delay="0.1s"
+                        >
+                            <div
+                                style="padding: 20px; padding-bottom: 70px"
+                                class="team-item text-center rounded overflow-hidden"
+                            >
+                                <div
+                                    class="rounded-circle overflow-hidden"
+                                    style="
+                                        margin-bottom: 20px;
+                                        border-radius: 0 !important;
+                                    "
+                                >
+                                    <img
+                                        class="img-fluid"
+                                        src="img/blog-1.jpg"
+                                        alt=""
+                                        style="border-radius: 0px !important"
+                                    />
+                                </div>
+                                <h5 class="mb-0">
+                                    Mejores Prácticas para Consultoría
+                                    Energética
+                                </h5>
+                                <small>
+                                    Aprende estrategias prácticas para
+                                    consultoría energética. Cómo implementar
+                                    tecnologías modernas y optimizar los
+                                    sistemas para una gestión eficaz de la
+                                    energía.
+                                </small>
+                            </div>
+                        </div>
+                        <div
+                            class="col-lg-4 col-md-6 wow fadeInUp"
+                            data-wow-delay="0.3s"
+                        >
+                            <div
+                                style="padding: 20px; padding-bottom: 70px"
+                                class="team-item text-center rounded overflow-hidden"
+                            >
+                                <div
+                                    class="rounded-circle overflow-hidden"
+                                    style="
+                                        margin-bottom: 20px;
+                                        border-radius: 0 !important;
+                                    "
+                                >
+                                    <img
+                                        class="img-fluid"
+                                        src="img/blog-2.jpg"
+                                        alt=""
+                                        style="border-radius: 0px !important"
+                                    />
+                                </div>
+                                <h5 class="mb-0">
+                                    Consejos para una Consultoría Energética
+                                    Eficaz
+                                </h5>
+                                <small>
+                                    Explora los principios universales para una
+                                    consultoría energética eficaz. Desde
+                                    habilidades de comunicación hasta gestión de
+                                    proyectos, ¡mejora el rendimiento de tu
+                                    equipo!
+                                </small>
+                            </div>
+                        </div>
+                        <div
+                            class="col-lg-4 col-md-6 wow fadeInUp"
+                            data-wow-delay="0.5s"
+                        >
+                            <div
+                                style="padding: 20px; padding-bottom: 70px"
+                                class="team-item text-center rounded overflow-hidden"
+                            >
+                                <div
+                                    class="rounded-circle overflow-hidden"
+                                    style="
+                                        margin-bottom: 20px;
+                                        border-radius: 0 !important;
+                                    "
+                                >
+                                    <img
+                                        class="img-fluid"
+                                        src="img/blog-3.jpg"
+                                        alt=""
+                                        style="border-radius: 0px !important"
+                                    />
+                                </div>
+                                <h5 class="mb-0">
+                                    Cómo Desarrollar un Plan Estratégico para
+                                    Consultoría Energética
+                                </h5>
+                                <small>
+                                    Aprende cómo crear un plan para la
+                                    consultoría energética que combine métodos
+                                    de formación modernos con tecnologías
+                                    prácticas para obtener mejores resultados.
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Blog End -->
+
+            <!-- Contact Start -->
+            <div id="contact" class="container-xxl py-5">
+                <div class="container">
+                    <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                        <h5
+                            class="section-title ff-secondary text-center text-primary fw-normal"
+                        >
+                            Contáctanos
+                        </h5>
+                        <h1 class="mb-5">
+                            Ponte en contacto con nosotros para cualquier
+                            consulta
+                        </h1>
+                    </div>
+                    <div class="row g-4">
+                        <div class="col-md-12">
+                            <div class="wow fadeInUp" data-wow-delay="0.2s">
+                                <form action="thanks.html" method="get">
+                                    <div class="row g-3">
+                                        <div class="col-md-6">
+                                            <div class="form-floating">
+                                                <input
+                                                    type="text"
+                                                    class="form-control"
+                                                    id="name"
+                                                    placeholder="Tu Nombre"
+                                                    required
+                                                />
+                                                <label for="name"
+                                                    >Tu Nombre</label
+                                                >
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-floating">
+                                                <input
+                                                    type="email"
+                                                    class="form-control"
+                                                    id="email"
+                                                    placeholder="Tu Correo Electrónico"
+                                                    required
+                                                />
+                                                <label for="email"
+                                                    >Tu Correo
+                                                    Electrónico</label
+                                                >
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="form-floating">
+                                                <input
+                                                    type="text"
+                                                    class="form-control"
+                                                    id="subject"
+                                                    placeholder="Asunto"
+                                                    required
+                                                />
+                                                <label for="subject"
+                                                    >Asunto</label
+                                                >
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="form-floating">
+                                                <textarea
+                                                    class="form-control"
+                                                    placeholder="Deja un mensaje"
+                                                    id="message"
+                                                    style="height: 150px"
+                                                    required
+                                                ></textarea>
+                                                <label for="message"
+                                                    >Mensaje</label
+                                                >
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <button
+                                                class="btn btn-primary w-100 py-3"
+                                                type="submit"
+                                                id="submit"
+                                            >
+                                                Enviar Mensaje
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Contact End -->
+
+            <!-- Footer Start -->
+            <div
+                class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn"
+                data-wow-delay="0.1s"
+            >
+                <div class="container py-5">
+                    <div class="row g-5">
+                        <div class="col-lg-4 col-md-6">
+                            <h4
+                                class="section-title ff-secondary text-start text-primary fw-normal mb-4"
+                            >
+                                Sobre Nosotros
+                            </h4>
+                            <p>
+                                Contáctanos para dar el primer paso hacia el
+                                avance de tus soluciones energéticas. Nuestro
+                                equipo de expertos está listo para ofrecer
+                                programas de consulta personalizados, brindando
+                                las últimas estrategias y tecnologías para
+                                ayudar a optimizar tus procesos.
+                            </p>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <h4
+                                class="section-title ff-secondary text-start text-primary fw-normal mb-4"
+                            >
+                                Información de Contacto
+                            </h4>
+
+                            <p class="mb-2">
+                                <i class="fa fa-envelope me-3"></i
+                                >bright_path@gmail.com
+                            </p>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <h4
+                                class="section-title ff-secondary text-start text-primary fw-normal mb-4"
+                            >
+                                Enlaces Rápidos
+                            </h4>
+                            <div
+                                style="
+                                    display: flex;
+                                    flex-direction: column;
+                                    row-gap: 10px;
+                                "
+                            >
+                                <a href="index.html">Inicio</a>
+                                <a href="privacy-policy.html"
+                                    >Política de Privacidad</a
+                                >
+                                <a href="terms-of-use.html">Términos de Uso</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer End -->
+
+            <!-- Back to Top -->
+            <a
+                href="#"
+                class="btn btn-lg btn-primary btn-lg-square back-to-top"
+            >
+                <i class="bi bi-arrow-up"></i>
+            </a>
+
+            <!-- Cookie banner -->
+            <div class="cookie-wrapper show">
+                <div>
+                    <i class="bx bx-cookie"></i>
+                    <h2 style="text-align: center">
+                        Consentimiento de Cookies
+                    </h2>
+                </div>
+
+                <div class="data">
+                    <p>
+                        Este sitio web utiliza cookies para ofrecerte una mejor
+                        y más relevante experiencia de navegación.
+                        <a href="privacy-policy.html">Aprende más...</a>
+                    </p>
+                </div>
+
+                <div class="buttons">
+                    <button class="cookie-button" id="acceptBtn">
+                        Aceptar
+                    </button>
+                    <button class="cookie-button" id="declineBtn">
+                        Rechazar
+                    </button>
+                </div>
+            </div>
+            <!-- End Cookie banner -->
+        </div>
+
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/tempusdominus/js/moment.min.js"></script>
+        <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+        <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>
